@@ -2,6 +2,6 @@
 
 **MySensors-rus** ресурс посвящённый IoT на базе MySensors и не только.
 
-[Русскоязычный канал MySensors](https://t.me/mysensors)
+[Русскоязычный канал MySensors в Телеграмм](https://t.me/mysensors)
 
-[Русскоязычная группа MySensors](https://t.me/mysensors_rus)
+[Русскоязычная группа MySensors в Телеграмм](https://t.me/mysensors_rus)
