@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Интересуюсь темой умного дома.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+В данный момент строю умный дом на системе MySensors. Использую различные МК (atmega, stm32, nrf52).
+Для русскоязычного общения создан [**канал**](https://t.me/mysensors) и [**группа**](https://t.me/mysensors_rus) в телеграме.
 
 ### Contact me
 
