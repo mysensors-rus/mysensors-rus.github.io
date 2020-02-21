@@ -33,8 +33,9 @@ tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}
 
     nrfjprog -f %1 --program %2 --chiperase -r
   
-6. Данный пример приведён для Windows.
-7. Запускаем Arduino IDE и радуемся. :)
+6. Запускаем Arduino IDE и радуемся. :)
+
+P.S. Данный пример приведён для Windows.
 
 Данная статья написана для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
 Публикация данной статьи на других ресурсах разрешается только при указании [первоисточника](mysensors-rus.github.io)!
