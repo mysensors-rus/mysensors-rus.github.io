@@ -23,9 +23,9 @@ tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}
 
 3. В файле **boards.txt** того же флеймворка, для своей платы внести аналогичные изменения:
 
-    Generic_nRF52840.upload.tool=***jlink_upload***
-    Generic_nRF52840.upload.protocol=jlink</br>
-    Generic_nRF52840.upload.target=nrf52
+    Generic_nRF52840.upload.tool=***jlink_upload***  
+    Generic_nRF52840.upload.protocol=jlink 
+    Generic_nRF52840.upload.target=nrf52  
     Generic_nRF52840.upload.maximum_size=1048576
 
 4. В директории фреймворка создаём папки arduino-nRF5/**tools/win**.
