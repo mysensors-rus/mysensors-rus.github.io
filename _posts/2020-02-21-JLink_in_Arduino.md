@@ -24,7 +24,7 @@ tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}
 3. В файле **boards.txt** того же флеймворка, для своей платы внести аналогичные изменения:
 
     Generic_nRF52840.upload.tool=***jlink_upload***
-    Generic_nRF52840.upload.protocol=jlink
+    Generic_nRF52840.upload.protocol=jlink</br>
     Generic_nRF52840.upload.target=nrf52
     Generic_nRF52840.upload.maximum_size=1048576
 
@@ -36,7 +36,7 @@ tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}
 6. Данный пример приведён для Windows.
 7. Запускаем Arduino IDE и радуемся. :)
 
-Данная статья написана исключительно для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
+Данная статья написана для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
 Публикация данной статьи на других ресурсах разрешается только при указании [первоисточника](mysensors-rus.github.io)!
 
 Dab0G.
