@@ -3,7 +3,7 @@ layout: post
 title: Добавляем нормальную поддержку JLink в Arduino IDE
 ---
 
-  В данный момент (21.02.2020) в Arduino IDE поддержка JLink програаматора реализовано достаточно кривым методом, через Zadig. Да, после этого JLink начинает работать в Arduino IDE, но при этом он отваливается от всего остального (Keil, SEGGER Studio и т.п.) и это не есть хорошо.
+  В данный момент (21.02.2020) в Arduino IDE поддержка JLink программатора реализовано достаточно кривым методом, через Zadig. Да, после этого JLink начинает работать в Arduino IDE, но при этом он отваливается от всего остального (Keil, SEGGER Studio и т.п.) и это не есть хорошо.
 
   Попробуем исправить ситуацию. Для этого нам как всегда понадобиться ~~напильник и~~:
 
@@ -33,7 +33,6 @@ tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}
 
     nrfjprog -f %1 --program %2 --chiperase -r
   
-* Данный пример приведён для Windows.
 * Запускаем Arduino IDE и радуемся. :)
 
 Данная статья написана для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
