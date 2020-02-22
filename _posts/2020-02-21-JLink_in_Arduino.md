@@ -11,6 +11,7 @@ title: Добавляем нормальную поддержку JLink в Ardui
 
 * Добавить в конец файла **platform.txt** фреймворка [**arduino-nRF5**](https://github.com/sandeepmistry/arduino-nRF5) следующий текст:
 
+**Для версии Arduino IDE 1.8.8**
 ``` 
 #jlink upload
 tools.jlink_upload.cmd=jlink_upload
@@ -21,7 +22,29 @@ tools.jlink_upload.upload.params.quiet=n
 tools.jlink_upload.upload.pattern="{path}/{cmd}" "{upload.target}" "{build.path}/{build.project_name}.hex"
 ```
 
-* В файле **boards.txt** того же флеймворка, для своей платы внести аналогичные изменения:
+**Для версии Arduino IDE 1.8.12**
+```
+#jlink upload
+tools.jlink_upload.cmd=jlink_upload
+tools.jlink_upload.cmd.windows=jlink_upload.bat
+tools.jlink_upload.path={runtime.hardware.path}/0.6.0/tools/win
+tools.jlink_upload.program.params.quiet=n
+tools.jlink_upload.program.params.verbose=-d
+tools.jlink_upload.program.pattern="{path}/{cmd}" "{upload.target}" "{build.path}/{build.project_name}.hex"
+```
+
+В файле **programmers.txt** меняем одну строку:
+```
+jlink.name=J-Link
+jlink.communication=USB
+jlink.protocol=jlink
+jlink.program.protocol=jlink
+#jlink.program.tool=openocd
+jlink.program.tool=jlink_upload
+jlink.program.setup_command=transport select swd; set WORKAREASIZE 0;
+```
+
+* В файле **boards.txt** того же фреймворка, для своей платы внести аналогичные изменения:
 
     Generic_nRF52840.upload.tool=***jlink_upload***  
     Generic_nRF52840.upload.protocol=jlink  
