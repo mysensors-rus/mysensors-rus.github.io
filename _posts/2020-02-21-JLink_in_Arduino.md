@@ -53,9 +53,9 @@ jlink.program.setup_command=transport select swd; set WORKAREASIZE 0;
 
 * В директории фреймворка создаём папки arduino-nRF5/**tools/win**.
 * В директории /win/ создаём файл **jlink-upload.bat** со следующим содержанием:
-
+``` 
     nrfjprog -f %1 --program %2 --chiperase -r
-  
+``` 
 * Запускаем Arduino IDE и радуемся. :)
 
 Данная статья написана для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
