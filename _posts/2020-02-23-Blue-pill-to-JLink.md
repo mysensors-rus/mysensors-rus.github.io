@@ -26,7 +26,7 @@ title: Делаем из BluePill пограмматор/отладчик JLink 
 
 ![Фото 3](https://user-images.githubusercontent.com/48506975/75134950-f7567680-56f0-11ea-8894-03bdb09643a4.jpg)
 
-UPD 01.07.2020  Последние дрова JLink-а пытаются обновить наше йстройство и при этом его портят. Для устранения этой ситуации нужно залить более новую [**прошивку**](https://github.com/GCY/JLINK-ARM-OB/blob/master/2012%20version/jlink%20firmware.hex)
+UPD 01.07.2020  Последние дрова JLink-а пытаются обновить наше устройство и при этом его портят. Для устранения этой ситуации нужно залить более новую [**прошивку**](https://github.com/GCY/JLINK-ARM-OB/blob/master/2012%20version/jlink%20firmware.hex)
 
 Данная статья написана для Телеграм канала [https://t.me/mysensors](https://t.me/mysensors) и группы [https://t.me/mysensors_rus](https://t.me/mysensors_rus).
 Публикация данной статьи на других ресурсах разрешается только при указании [первоисточника](mysensors-rus.github.io)!
